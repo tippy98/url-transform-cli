@@ -1,0 +1,22 @@
+{
+  "name": "url-transform-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tippy98/url-transform-cli.git",
+  "author": "Tippy <Tippyh1998@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
